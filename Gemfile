@@ -50,7 +50,7 @@ gem 'rails-i18n', '~> 5.1.3'
 gem 'rails_autolink'
 gem 'rb-readline'
 gem 'rdiscount', '~> 2.2', '>= 2.2.0.1'
-gem "recaptcha", require: "recaptcha/rails"
+gem "recaptcha", "4.14.0"
 gem 'responders', '~> 3.0'
 gem 'rubocop', '~> 0.74.0', require: false
 gem "ruby-openid", :require => "openid"
@@ -102,7 +102,7 @@ end
 group :test, :development do
   gem 'capybara'
   gem 'ci_reporter_test_unit'
-  gem 'coveralls', require: false
+  gem 'coveralls', '>= 0.8.23', require: false
   gem 'jasmine-jquery-rails'
   gem 'jasmine-rails'
   gem 'json_expressions'
