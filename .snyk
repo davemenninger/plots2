@@ -1,0 +1,22 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - image-sequencer > lodash:
+        patched: '2020-04-30T23:56:57.009Z'
+    - image-sequencer > eslint > lodash:
+        patched: '2020-04-30T23:56:57.009Z'
+    - image-sequencer > eslint > inquirer > lodash:
+        patched: '2020-04-30T23:56:57.009Z'
+    - image-sequencer > eslint > table > lodash:
+        patched: '2020-04-30T23:56:57.009Z'
+    - simple-data-grapher > mocha > yargs-unparser > lodash:
+        patched: '2020-04-30T23:56:57.009Z'
+    - image-sequencer > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2020-04-30T23:56:57.009Z'
+    - image-sequencer > selectize > sifter > async > lodash:
+        patched: '2020-04-30T23:56:57.009Z'
+    - ics > grunt-mocha > grunt-lib-phantomjs > phantomjs > request > form-data > async > lodash:
+        patched: '2020-04-30T23:56:57.009Z'
