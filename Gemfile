@@ -54,7 +54,7 @@ gem "recaptcha", require: "recaptcha/rails"
 gem 'responders', '~> 3.0'
 gem 'rubocop', '~> 0.74.0', require: false
 gem "ruby-openid", :require => "openid"
-gem 'sanitize'
+gem 'sanitize', '>= 5.2.1'
 gem 'sentry-raven'
 gem 'sidekiq'
 gem 'skylight' # performance tracking via skylight.io
