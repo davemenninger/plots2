@@ -16,7 +16,7 @@ gem 'gemoji'
 gem 'geocoder'
 gem 'geokit-rails'
 gem 'georuby', '2.0'
-gem "google-cloud-storage"
+gem "google-cloud-storage", ">= 1.21.0"
 gem 'grape'
 gem 'grape-entity'
 gem 'grape-swagger', '~> 0.33.0'
@@ -72,7 +72,7 @@ gem 'mailman', require: false
 # To convert html to markdown
 gem 'reverse_markdown'
 
-gem 'twitter'
+gem 'twitter', '>= 6.2.0'
 
 # run with `bundle install --without production` or `bundle install --without mysql` to exclude this
 group :mysql, :production do
@@ -93,14 +93,14 @@ gem 'grape-rails-cache'
 
 group :development do
   gem 'byebug', platform: :mri
-  gem "letter_opener"
+  gem "letter_opener", ">= 1.7.0"
   gem 'listen', '~> 3.1.5'
   gem "nifty-generators"
   gem 'web-console', '>= 3.3.0'
 end
 
 group :test, :development do
-  gem 'capybara'
+  gem 'capybara', '>= 3.29.0'
   gem 'ci_reporter_test_unit'
   gem 'coveralls', require: false
   gem 'jasmine-jquery-rails'
